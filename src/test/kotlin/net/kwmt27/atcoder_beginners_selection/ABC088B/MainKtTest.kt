@@ -1,8 +1,6 @@
 package net.kwmt27.atcoder_beginners_selection.ABC088B
 
 import net.kwmt27.net.kwmt27.atcoder_beginners_selection.ABC088B.main
-import org.junit.jupiter.api.Assertions.*
-
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import java.io.ByteArrayInputStream
