@@ -11,5 +11,5 @@ A repository to practice AtCoder
    - するとMainTestがtestパッケージ作成される
 5. 問題のページに行く（例：https://atcoder.jp/contests/abs/tasks/abc086_a)
 6. AtCoder Unit Testのchrome 拡張ボタンを押してコピーする（参考: https://qiita.com/YujiSoftware/items/00ce688ce5dde627ec36)
-7MainTestに貼り付ける
+7. MainTestに貼り付ける
    - main関数のimportパスの調整は必要かもしれません。
