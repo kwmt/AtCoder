@@ -1,12 +1,13 @@
-package net.kwmt27.atcoder_beginners_selection
+package net.kwmt27.atcoder_beginners_selection.PracticeA
 
+import net.kwmt27.net.kwmt27.atcoder_beginners_selection.PracticeA.main
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
 
-class PracticeA {
+class MainKtTest {
     @Test
     fun sample1() {
         val input = """

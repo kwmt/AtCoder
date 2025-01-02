@@ -1,4 +1,4 @@
-package net.kwmt27.atcoder_beginners_selection
+package net.kwmt27.net.kwmt27.atcoder_beginners_selection.PracticeA
 
 fun main() {
     val a = readln().toInt()
