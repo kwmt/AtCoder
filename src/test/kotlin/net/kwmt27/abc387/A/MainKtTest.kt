@@ -1,4 +1,4 @@
-package abc387.A
+package net.kwmt27.abc387.A
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test

@@ -1,4 +1,4 @@
-package abc387.A
+package net.kwmt27.abc387.A
 
 import kotlin.math.pow
 
