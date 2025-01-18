@@ -1,7 +1,5 @@
 package net.kwmt27.abc387.C
 
-import net.kwmt27.abc389.C.BigIntegerRange
-import net.kwmt27.abc389.C.BigIntegerRangeIterator
 import java.math.BigInteger
 
 fun main() {
