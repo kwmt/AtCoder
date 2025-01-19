@@ -19,7 +19,7 @@ fun main() {
         println()
         return
     }
-
+    var deletedLines = mutableListOf<Line>()
 
     var queue: Queue<Line> = LinkedList()
     for (query in queries) {
@@ -32,19 +32,14 @@ fun main() {
             }
 
             2 -> {
-                val l = queue.poll()
-                val updateQueue = queue.toList().map {
-                    it.copy(
-                        pos = it.pos - l.length
-                    )
-                }
-                queue = LinkedList(updateQueue)
+                deletedLines.add(queue.poll())
             }
 
             3 -> {
                 val k = query[1]
                 val kLine = queue.toList()[k - 1]
-                println(kLine.pos)
+                val totalLength=  deletedLines.sumOf { it.length }
+                println(kLine.pos - totalLength)
             }
         }
     }
