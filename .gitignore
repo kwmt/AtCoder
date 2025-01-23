@@ -12,6 +12,7 @@ build/
 .idea/inspectionProfiles/
 .idea/kotlinc.xml
 .idea/uiDesigner.xml
+.idea/workspace.xml
 *.iws
 *.iml
 *.ipr
